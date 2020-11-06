@@ -1,6 +1,8 @@
-def even(numbers):
-    even_numbers = []
+even_numbers = []
+def even():
     for num in range(1,51):
         if num % 2 == 0:
-            even_numbers = even_numbers.append(num)
-            return even_numbers
+            even_numbers.append(num)
+    print(even_numbers)
+    return even_numbers
+even()
